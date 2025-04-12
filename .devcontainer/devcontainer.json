@@ -1,0 +1,12 @@
+{
+  "name": "ESP-IDF Zigbee",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "extensions": [
+    "espressif.esp-idf-extension"
+  ],
+  "postCreateCommand": "idf.py set-target esp32c6",
+  "remoteUser": "vscode"
+}
